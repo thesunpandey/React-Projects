@@ -161,8 +161,6 @@ Welcome to my collection of React projects! This repository showcases a variety 
 - **API Integration**: Fetching and displaying data from various APIs including Open Weather, Edamam, and Google Search.
 - **Styling and UI Design**: Utilizing libraries like Material-UI, Tailwind CSS, and Bootstrap to create responsive and visually appealing interfaces.
 - **Deployment**: Hosting applications on platforms like Firebase and Heroku.
-- **Real-Time Features**: Implement
-
-ing real-time communication and updates with Socket and React Chatengine.
+- **Real-Time Features**: Implementing real-time communication and updates with Socket and React Chatengine.
 
 Feel free to explore each project, review the code, and provide feedback!
