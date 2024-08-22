@@ -1,0 +1,61 @@
+/* Center the root content and add a smooth, balanced padding */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+  background-color: #f8f9fa; /* Light background for a clean look */
+  border-radius: 8px; /* Rounded corners for a modern feel */
+}
+
+/* Enhance the logo with a consistent size and hover effects */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms, transform 300ms; /* Smooth hover transitions */
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Smooth spinning animation for the logo */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Style the card with more space and a polished look */
+.card {
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 2rem; /* Space between cards */
+}
+
+/* Style the text for readability and visual appeal */
+.read-the-docs {
+  color: #646cff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 300ms; /* Smooth color transition */
+}
+.read-the-docs:hover {
+  color: #343a40; /* Darker color on hover */
+}
